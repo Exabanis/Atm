@@ -1,4 +1,7 @@
+package org.texman.bank;
+
 import java.util.Scanner;
+
 public class Atm
 {
     //Atm class field

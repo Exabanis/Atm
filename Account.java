@@ -1,4 +1,7 @@
+package org.texman.bank;
+
 import java.util.Date;
+
 //Account class
 public class Account
 {
@@ -23,17 +26,17 @@ public class Account
 
     public int getId()
     {
-        return id;
+        return this.id;
     }
 
     public double getBalance()
     {
-        return balance;
+        return this.balance;
     }
 
     public Date getDateCreated()
     {
-        return dateCreated;
+        return this.dateCreated;
     }
 
     public void setId(int id)

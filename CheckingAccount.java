@@ -1,3 +1,5 @@
+package org.texman.bank;
+
 //Checking Accounts class
 public class CheckingAccount extends Account
 {
@@ -6,7 +8,7 @@ public class CheckingAccount extends Account
     public CheckingAccount(int id, double balance)
     {
         super(id, balance);
-        this.setBalance(balance + getOverdraft());
+        this.setBalance(balance + getOverdraft());//to allow the parent withdraw method to minus overdraft
     }
 
     public double getOverdraft()

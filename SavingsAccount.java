@@ -1,3 +1,5 @@
+package org.texman.bank;
+
 //savings account class 
 public class SavingsAccount extends Account
 {
