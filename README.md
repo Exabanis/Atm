@@ -4,7 +4,7 @@ A program that simulates an ATM
 
 Clone the repository then run the following commands to play
 
-Compile: javac javac -d . *.java
+Compile: javac -d . *.java
 
 Play: java org.texman.bank.Atm
 
